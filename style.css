@@ -40,6 +40,15 @@ p{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+#imgLeft{
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+#imgRight{
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+
 #header{
   grid-row: 1/2;
   grid-column: 1/4;
