@@ -11,6 +11,15 @@ body{
   padding: 0;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 .frame{
     display: flex;
     align-items: center;
@@ -27,7 +36,6 @@ body{
   display: grid;
   width: 100vw;
   height: 100vh;
-  background-color: gray;
   grid-template-rows: 100px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
