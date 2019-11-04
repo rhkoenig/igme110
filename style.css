@@ -21,6 +21,47 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 
+.subpage{
+display: grid;
+width: 100vw;
+height: 100vh;
+grid-template-rows: 100px 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.headi{
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-content: center;
+  align-items: center;
+}
+
+.par{
+  grid-row: 2/3;
+  grid-column: 1/4;
+}
+
+.imrig{
+  display: flex;
+  grid-row: 1/2;
+  grid-column: 3/4;
+  max-height: 100px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 10px 15px 0px 0px
+}
+
+.imlef{
+  display: flex;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  max-height: 100px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 10px 0px 0px 15px
+}
+
 
 .frame{
     display: flex;
